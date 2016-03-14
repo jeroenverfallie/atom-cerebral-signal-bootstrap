@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Cerebral: Parse signal file'
+      'command': 'atom-cerebral-signal-bootstrap:parse'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Cerebral'
+      'submenu': [
+        {
+          'label': 'Parse signal file'
+          'command': 'atom-cerebral-signal-bootstrap:toggle'
+        }
+      ]
+    ]
+  }
+]
