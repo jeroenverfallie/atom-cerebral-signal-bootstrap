@@ -23,7 +23,7 @@ describe('test', () => {
         `;
 
         const result = SignalFileParser.parse(content);
-        
+
         expect(result).toEqual(false);
     });
 
@@ -228,30 +228,4 @@ describe('test', () => {
 
         expect(result).toEqual(expected);
     });
-
-
-// it('should parse everything', () => {
-//     const content = `
-//         import doOtherStuff from '../../';
-//         import random from '../../';
-//
-//         export default [
-//             setStuff,
-//             doOtherStuff(some, args), {
-//                 success: [...doMoreStuff, findMore(), {success: [ok, ...test]}],
-//                 error: [otherThings]
-//             },
-//             ...andOthers(more, args),
-//             somethingElse
-//         ];
-//     `;
-//
-//     const result = SignalFileParser.parse(content);
-//
-//     console.log(result);
-//
-//
-//     expect('life').toBe('lidfe');
-// });
-
 });
