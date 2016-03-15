@@ -6,7 +6,7 @@ Quickly bootstrap signals/chains by adding imports and generating the different 
 
 
 
-**important: ** It expects :
+**important:** It expects :
 
 ```js
 export default [/* Anything */];
