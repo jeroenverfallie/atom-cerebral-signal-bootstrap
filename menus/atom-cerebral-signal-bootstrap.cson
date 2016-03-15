@@ -2,8 +2,8 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Cerebral: Parse signal file'
-      'command': 'atom-cerebral-signal-bootstrap:parse'
+      'label': 'Cerebral: Parse and bootstrap signal/chain.'
+      'command': 'atom-cerebral-signal-bootstrap:execute'
     }
   ]
 'menu': [
@@ -13,8 +13,8 @@
       'label': 'Cerebral'
       'submenu': [
         {
-          'label': 'Parse signal file'
-          'command': 'atom-cerebral-signal-bootstrap:toggle'
+          'label': 'Parse and bootstrap signal/chain.'
+          'command': 'atom-cerebral-signal-bootstrap:execute'
         }
       ]
     ]
