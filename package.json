@@ -2,13 +2,17 @@
   "name": "atom-cerebral-signal-bootstrap",
   "main": "./lib/SignalBootstrap.js",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "A package to quickly bootstrap cerebral signals and chains.",
   "keywords": [
+      "cerebral",
+      "signals",
+      "bootstrap",
+      "generator"
   ],
   "activationCommands": {
     "atom-workspace": "atom-cerebral-signal-bootstrap:parse"
   },
-  "repository": "https://github.com/atom/atom-cerebral-signal-bootstrap",
+  "repository": "https://github.com/jeroenverfallie/atom-cerebral-signal-bootstrap.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
