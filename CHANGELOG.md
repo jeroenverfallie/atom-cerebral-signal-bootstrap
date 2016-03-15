@@ -1,3 +1,6 @@
+## 0.4.0 - Template fixes
+* Fixed exceptions so they don't break cerebral :-)
+
 ## 0.3.1 - Beauty fixes
 * Beauty fixes to imports and templates
 
