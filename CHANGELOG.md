@@ -1,3 +1,6 @@
+## 0.3.1 - Beauty fixes
+* Beauty fixes to imports and templates
+
 ## 0.3.0 - Notifications
 * Added notifications
 
