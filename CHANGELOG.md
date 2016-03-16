@@ -1,3 +1,10 @@
+## 0.5.0 - Template fixes
+* New parser (babylon) - fixes a lot of things
+* Support for signal files, modules files and signal definition files.
+* Support for addons (configurable)
+* Configurable sorting method
+* Improved README
+
 ## 0.4.0 - Template fixes
 * Fixed exceptions so they don't break cerebral :-)
 
