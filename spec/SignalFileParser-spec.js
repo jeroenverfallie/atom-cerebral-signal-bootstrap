@@ -2,20 +2,7 @@
 
 import SignalFileParser from '../lib/SignalFileParser.js';
 
-var content = `import doOtherStuff from '../../';
-import random from '../../';
-
-export default [
-    setStuff,
-    doOtherStuff(some, args), {
-        success: [...doMoreStuff, findMore(), {success: [ok, ...test]}],
-        error: [otherThings]
-    },
-    ...andOthers(more, args),
-    somethingElse
-];`;
-
-describe('test', () => {
+describe('SignalFileParser', () => {
 
     it('should fail on wrong files', () => {
         const content = `
@@ -172,6 +159,7 @@ describe('test', () => {
 
             export default [
                 [
+                    action,
                     actionA,
                     actionB, {
                         outputA: [
@@ -196,6 +184,9 @@ describe('test', () => {
         `;
 
         const expected = [{
+            type: 'action',
+            name: 'action'
+        }, {
             type: 'action',
             name: 'actionA'
         }, {
@@ -228,4 +219,5 @@ describe('test', () => {
 
         expect(result).toEqual(expected);
     });
+
 });
