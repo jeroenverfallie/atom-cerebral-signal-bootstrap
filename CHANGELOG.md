@@ -1,3 +1,7 @@
+## 0.7.0 - Configuration
+* New configuration options
+* Manage existing imports
+
 ## 0.5.0 - Template fixes
 * New parser (babylon) - fixes a lot of things
 * Support for signal files, modules files and signal definition files.
