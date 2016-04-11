@@ -1,3 +1,10 @@
+## 0.10.0
+* Added all cerebral-addons factory keywords as default
+* Added support for async when 'async' is in the identifier name
+* Fixed factories with no arguments
+* Added indentation configuration support
+* Removed success notification by default, can be turned on in configuration.
+
 ## 0.7.0 - Configuration
 * New configuration options
 * Manage existing imports
