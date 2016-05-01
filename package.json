@@ -1,7 +1,7 @@
 {
   "name": "atom-cerebral-signal-bootstrap",
   "main": "./lib/SignalBootstrap.js",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "A package to quickly bootstrap cerebral signals and chains.",
   "keywords": [
     "cerebral",
