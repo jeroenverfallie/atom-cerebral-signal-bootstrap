@@ -18,6 +18,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "cerebral-cli-generator": "1.1.1"
+    "cerebral-cli-generator": "1.2.0"
   }
 }
