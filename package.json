@@ -1,20 +1,23 @@
 {
-    "name": "cerebral-signal-helper",
-    "main": "./lib/SignalBootstrap.js",
-    "version": "2.0.1",
-    "description":
-        "A package to quickly bootstrap cerebral signals and chains.",
-    "keywords": ["cerebral", "signals", "helper", "generator"],
-    "activationCommands": {
-        "atom-workspace": "cerebral-signal-helper:executeOnCurrentFile"
-    },
-    "repository":
-        "https://github.com/jeroenverfallie/atom-cerebral-signal-helper.git",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {
-        "cerebral-cli-generator": "2.0.2"
-    }
+  "name": "cerebral-signal-helper",
+  "main": "./lib/SignalBootstrap.js",
+  "version": "2.0.0",
+  "description": "A package to quickly bootstrap cerebral signals and chains.",
+  "keywords": [
+    "cerebral",
+    "signals",
+    "helper",
+    "generator"
+  ],
+  "activationCommands": {
+    "atom-workspace": "cerebral-signal-helper:executeOnCurrentFile"
+  },
+  "repository": "https://github.com/jeroenverfallie/atom-cerebral-signal-helper.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "cerebral-cli-generator": "2.0.2"
+  }
 }
