@@ -3,7 +3,7 @@
   'atom-text-editor': [
     {
       'label': 'Cerebral signal helper: Execute on current file'
-      'command': 'atom-cerebral-signal-bootstrap:execute'
+      'command': 'cerebral-signal-helper:executeOnCurrentFile'
     }
   ]
 'menu': [
@@ -14,7 +14,7 @@
       'submenu': [
         {
           'label': 'Execute on current file'
-          'command': 'atom-cerebral-signal-bootstrap:execute'
+          'command': 'cerebral-signal-helper:executeOnCurrentFile'
         }
       ]
     ]

@@ -1,4 +1,4 @@
-# atom-cerebral-signal-bootstrap package
+# cerebral-signal-helper package
 
 Quickly bootstrap signals/chains by adding imports and generating the different files.
 
