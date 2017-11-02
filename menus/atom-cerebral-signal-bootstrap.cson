@@ -2,7 +2,7 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Cerebral: Parse and bootstrap signal/chain.'
+      'label': 'Cerebral signal helper: Execute on current file'
       'command': 'atom-cerebral-signal-bootstrap:execute'
     }
   ]
@@ -10,10 +10,10 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'Cerebral'
+      'label': 'Cerebral signal helper'
       'submenu': [
         {
-          'label': 'Parse and bootstrap signal/chain.'
+          'label': 'Execute on current file'
           'command': 'atom-cerebral-signal-bootstrap:execute'
         }
       ]
